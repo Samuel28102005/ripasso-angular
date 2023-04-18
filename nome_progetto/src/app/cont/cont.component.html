@@ -3,3 +3,9 @@
 <br>
 {{numero.n_click}}
 <br>
+<button (click)="addToFavorite()">Favorito</button>
+
+<app-fav *ngFor="let numero of vett_n"   [numero]="numero"        >
+
+
+</app-fav>

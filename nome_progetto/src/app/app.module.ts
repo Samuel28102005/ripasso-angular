@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContComponent } from './cont/cont.component';
+import { FavComponent } from './fav/fav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContComponent
+    ContComponent,
+    FavComponent
   ],
   imports: [
     BrowserModule,
